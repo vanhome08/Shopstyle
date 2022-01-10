@@ -17,7 +17,6 @@ class LoginPage
     login(email = "Okachev.gym@gmail.com", password = "YourPassword") {
         // navigate to Login page and verify that page is open
         browser.url(browser.config.baseUrl)
-        //browser.url("http://shopstyle.com")
         this.loginBtn.click();
         this.emailTxt.waitForClickable();
         // enter test email 
