@@ -1,7 +1,7 @@
 //const CommonPage = require("../../common/common-page.js")
 
 class LoginPage
-//extends CommonPage 
+//extends CommonPage
 {
     get emailTxt() { return $('[data-test="email-input"]') };
     get passwordTxt() { return $('[data-test="password-input"]') }
