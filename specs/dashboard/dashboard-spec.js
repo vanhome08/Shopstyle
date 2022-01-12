@@ -1,7 +1,7 @@
 const LoginPage = require('../../page-objects/login/login-page.js');
 
 describe('Login', () => {
-  it('User should be able to Log In using email and password', () => {
+  it('User should be able to Log out', () => {
     // log in using test account creds
     LoginPage.login()
     // log out
