@@ -11,5 +11,5 @@ describe('Profile', () => {
         // swap profile settings and verify that they were saved
         ProfilePage.swapProfileInfo();
     })
-
+   
 })
